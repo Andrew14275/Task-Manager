@@ -1,3 +1,58 @@
+Task Manager Web Application
+
+A responsive web application built with **React, JavaScript, and Bootstrap** to help students manage their academic tasks efficiently. Tasks can be added, edited, deleted, marked as completed, and filtered by status. Data is stored locally using `localStorage`.
+
+---
+
+## 🚀 Features
+- Add tasks with **title, subject, deadline, and priority**
+- Display tasks using **Bootstrap cards** in a responsive layout
+- Mark tasks as **Completed** or revert to **Pending**
+- Edit and delete existing tasks
+- Filter tasks by status: **All, Pending, Completed**
+- Form validation with error messages
+- Persistent storage using **localStorage**
+- Responsive design with **Bootstrap components**
+
+---
+
+## 🛠️ Tech Stack
+- **React** (Functional Components, Props, State, Event Handling)
+- **JavaScript**
+- **Bootstrap 4/5**
+- **localStorage** for persistence
+- **GitHub** for version control
+
+---
+
+## 📂 Project Structure
+src/
+├── App.js
+├── Navbar.js
+├── TaskForm.js
+├── TaskList.js
+├── App.css
+└── index.js
+
+
+---
+
+## ⚙️ Setup Instructions
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/student-task-manager.git
+
+2. cd student-task-manager
+3. npm install
+4. npm start
+5. http://localhost:3000
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
